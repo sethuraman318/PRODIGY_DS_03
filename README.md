@@ -1,7 +1,11 @@
 Task 03 – Decision Tree Classifier (Bank Marketing Dataset)
+
+
 📌 Objective
 
 Build a Decision Tree Classifier to predict whether a customer will subscribe to a term deposit based on demographic and behavioral data from the UCI Bank Marketing Dataset.
+
+
 
 📊 Dataset Used
 
@@ -29,7 +33,10 @@ Target variable: y (whether the client subscribed)
 
 "no" → customer did not subscribe
 
+
+
 🧹 Steps Performed
+
 1️⃣ Data Loading & Cleaning
 
 Loaded CSV file
@@ -40,6 +47,8 @@ Handled missing values
 
 Scaled numerical features where needed
 
+
+
 2️⃣ Model Building
 
 Split data into train/test
@@ -48,9 +57,12 @@ Used DecisionTreeClassifier from Scikit-learn
 
 Tuned basic parameters for performance
 
+
+
 3️⃣ Model Evaluation
 
 Two key evaluation visuals were generated:
+
 
 📌 Feature Importance Plot
 
@@ -61,6 +73,7 @@ duration was the most important factor
 Followed by nr.employed, age, euribor3m, etc.
 
 (📎 feature_importances.png included in repository)
+
 
 📌 Confusion Matrix
 
@@ -74,12 +87,15 @@ Strong accuracy in predicting non-subscription
 
 Model correctly identifies a smaller portion of actual subscribers
 
+
+
 📁 Files in This Folder
 Task3_DecisionTree_BankMarketing.ipynb
 bank.csv
 feature_importances.png
 confusion_matrix.png
 README.md
+
 
 🚀 Conclusion
 
@@ -96,6 +112,7 @@ Ensemble methods (Random Forest, XGBoost)
 Hyperparameter tuning
 
 Feature engineering
+
 
 👨‍💻 Author
 
